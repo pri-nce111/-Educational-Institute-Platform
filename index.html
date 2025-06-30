@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduSuccess Institute - Premier Coaching for IIT, NEET & School Education</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/50x50" alt="EduSuccess Logo">
+                <h1>Edu<span>Success</span></h1>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#courses" class="nav-link">Courses</a></li>
+                    <li><a href="#admission" class="nav-link">Admission</a></li>
+                    <li><a href="#results" class="nav-link">Results</a></li>
+                    <li><a href="#faculty" class="nav-link">Faculty</a></li>
+                    <li><a href="#portal" class="nav-link">Portal</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Unlock Your Academic Potential with EduSuccess</h1>
+                <p>Premier coaching for IIT-JEE, NEET, and school education with a proven track record of success</p>
+                <div class="hero-btns">
+                    <a href="#admission" class="btn">Enroll Now</a>
+                    <a href="#courses" class="btn btn-outline">Explore Courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose EduSuccess?</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Expert Faculty</h3>
+                    <p>Learn from IIT/NIT alumni and experienced educators with proven track records.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Comprehensive Study Material</h3>
+                    <p>Specially designed study materials updated regularly to match current exam patterns.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Regular Testing</h3>
+                    <p>Weekly tests and mock exams to track progress and improve performance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Personalized Attention</h3>
+                    <p>Small batch sizes ensuring individual attention and doubt resolution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Transforming Education Since 2005</h3>
+                    <p>EduSuccess Institute was founded with a vision to provide quality education to students preparing for competitive exams and school curriculum. What started as a small coaching center has now grown into one of the most trusted names in education.</p>
+                    <p>Our mission is to nurture young minds, instill confidence, and provide the right guidance to help students achieve their academic goals. We believe in holistic development that goes beyond just exam preparation.</p>
+                    <p>Over the years, we have helped thousands of students secure admissions in top engineering and medical colleges, as well as excel in their school examinations.</p>
+                    <div class="milestones">
+                        <div class="milestone">
+                            <h4>18+</h4>
+                            <p>Years of Excellence</p>
+                        </div>
+                        <div class="milestone">
+                            <h4>5000+</h4>
+                            <p>Students Enrolled</p>
+                        </div>
+                        <div class="milestone">
+                            <h4>250+</h4>
+                            <p>IIT/NIT Selections</p>
+                        </div>
+                        <div class="milestone">
+                            <h4>180+</h4>
+                            <p>NEET Selections</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="EduSuccess Campus">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Courses</h2>
+            </div>
+            <div class="courses-tabs" id="courseTabs">
+                <button class="tab-btn active" data-tab="engineering">Engineering</button>
+                <button class="tab-btn" data-tab="medical">Medical</button>
+                <button class="tab-btn" data-tab="school">School Education</button>
+                <button class="tab-btn" data-tab="online">Online Programs</button>
+            </div>
+            <div class="courses-content">
+                <div class="courses-grid" id="engineering">
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="IIT-JEE Course">
+                        </div>
+                        <div class="course-info">
+                            <h3>IIT-JEE (Main + Advanced)</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 2 Years</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 11-12</span>
+                            </div>
+                            <div class="course-price">₹25,000/year</div>
+                            <div class="course-desc">
+                                Comprehensive preparation for IIT-JEE with focus on concepts, problem solving and regular testing.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="JEE Main Course">
+                        </div>
+                        <div class="course-info">
+                            <h3>JEE Main Crash Course</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 6 Months</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 12</span>
+                            </div>
+                            <div class="course-price">₹15,000</div>
+                            <div class="course-desc">
+                                Intensive revision course covering all JEE Main syllabus with mock tests and doubt sessions.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1581093057305-25a0a6b9f46e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Foundation Course">
+                        </div>
+                        <div class="course-info">
+                            <h3>Foundation Course (Class 9-10)</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 2 Years</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 9-10</span>
+                            </div>
+                            <div class="course-price">₹18,000/year</div>
+                            <div class="course-desc">
+                                Build strong fundamentals in Maths and Science to prepare for future competitive exams.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-grid" id="medical" style="display: none;">
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="NEET Course">
+                        </div>
+                        <div class="course-info">
+                            <h3>NEET UG Preparation</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 2 Years</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 11-12</span>
+                            </div>
+                            <div class="course-price">₹28,000/year</div>
+                            <div class="course-desc">
+                                Complete NEET preparation with emphasis on Biology, Chemistry concepts and regular mock tests.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="NEET Crash Course">
+                        </div>
+                        <div class="course-info">
+                            <h3>NEET Crash Course</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 6 Months</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 12</span>
+                            </div>
+                            <div class="course-price">₹18,000</div>
+                            <div class="course-desc">
+                                Intensive revision program covering all NEET syllabus with focus on high-yield topics.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Biology Foundation">
+                        </div>
+                        <div class="course-info">
+                            <h3>Biology Foundation (Class 9-10)</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 2 Years</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 9-10</span>
+                            </div>
+                            <div class="course-price">₹15,000/year</div>
+                            <div class="course-desc">
+                                Build strong Biology fundamentals for students aspiring for medical careers in future.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-grid" id="school" style="display: none;">
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Class 10 CBSE">
+                        </div>
+                        <div class="course-info">
+                            <h3>Class 10 CBSE/State Board</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 1 Year</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 10</span>
+                            </div>
+                            <div class="course-price">₹12,000</div>
+                            <div class="course-desc">
+                                Complete preparation for Class 10 board exams with regular tests and doubt sessions.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Class 12 Science">
+                        </div>
+                        <div class="course-info">
+                            <h3>Class 12 Science (PCMB)</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 1 Year</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 12</span>
+                            </div>
+                            <div class="course-price">₹15,000</div>
+                            <div class="course-desc">
+                                Comprehensive coaching for Class 12 board exams with option to combine with JEE/NEET prep.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1422&q=80" alt="Olympiad Prep">
+                        </div>
+                        <div class="course-info">
+                            <h3>Olympiad Preparation</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 6 Months</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 6-10</span>
+                            </div>
+                            <div class="course-price">₹8,000</div>
+                            <div class="course-desc">
+                                Specialized training for various Olympiads (Science, Math, Astronomy) with expert guidance.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-grid" id="online" style="display: none;">
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Online JEE Course">
+                        </div>
+                        <div class="course-info">
+                            <h3>Online IIT-JEE Program</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 2 Years</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 11-12</span>
+                            </div>
+                            <div class="course-price">₹18,000/year</div>
+                            <div class="course-desc">
+                                Live online classes with recorded lectures, doubt sessions and test series for JEE aspirants.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1581093057305-25a0a6b9f46e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Online NEET Course">
+                        </div>
+                        <div class="course-info">
+                            <h3>Online NEET Program</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 2 Years</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 11-12</span>
+                            </div>
+                            <div class="course-price">₹20,000/year</div>
+                            <div class="course-desc">
+                                Comprehensive online NEET preparation with live classes, doubt clearing and test series.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-img">
+                            <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Online Board Course">
+                        </div>
+                        <div class="course-info">
+                            <h3>Online Board Exam Prep</h3>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 1 Year</span>
+                                <span><i class="fas fa-user-graduate"></i> Class 10/12</span>
+                            </div>
+                            <div class="course-price">₹10,000</div>
+                            <div class="course-desc">
+                                Complete preparation for CBSE/State board exams through live and recorded online classes.
+                            </div>
+                            <a href="#admission" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Section -->
+    <section id="admission" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Admission Process</h2>
+            </div>
+            <div class="admission-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Inquiry</h3>
+                    <p>Visit our center or website to learn about courses, fees, and schedules.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Diagnostic Test</h3>
+                    <p>Take our free diagnostic test to assess your current level (for competitive courses).</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Counselling</h3>
+                    <p>Meet our counsellor to select the right course based on your goals and test results.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Registration</h3>
+                    <p>Complete admission formalities by submitting required documents and fees.</p>
+                </div>
+            </div>
+            <div class="documents-checklist">
+                <h3>Documents Required for Admission</h3>
+                <div class="checklist-items">
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Recent passport size photographs (2 copies)</span>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>School ID card or bonafide certificate</span>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Previous year's mark sheet (photocopy)</span>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Aadhaar card (photocopy)</span>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Address proof (if different from Aadhaar)</span>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Diagnostic test result (for competitive courses)</span>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="#" class="btn" style="margin-right: 20px;">Download Brochure</a>
+                <a href="#contact" class="btn btn-outline">Contact for Queries</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Achievements</h2>
+            </div>
+            <div class="results-tabs" id="resultsTabs">
+                <button class="tab-btn active" data-tab="toppers">Top Rankers</button>
+                <button class="tab-btn" data-tab="stats">Performance Stats</button>
+                <button class="tab-btn" data-tab="stories">Success Stories</button>
+            </div>
+            <div class="results-content active" id="toppers">
+                <h3 style="text-align: center; margin-bottom: 30px; color: var(--primary-color);">Our Top Performers - 2023</h3>
+                <div class="toppers-list">
+                    <div class="topper-card">
+                        <div class="topper-img">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rahul Sharma">
+                        </div>
+                        <h3>Rahul Sharma</h3>
+                        <span class="topper-rank">JEE Advanced AIR 127</span>
+                        <p>Class 12, PCM</p>
+                        <p>"EduSuccess's rigorous test series and doubt clearing sessions were key to my success."</p>
+                    </div>
+                    <div class="topper-card">
+                        <div class="topper-img">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Priya Patel">
+                        </div>
+                        <h3>Priya Patel</h3>
+                        <span class="topper-rank">NEET AIR 85</span>
+                        <p>Class 12, PCB</p>
+                        <p>"The biology faculty's teaching methodology helped me understand concepts deeply."</p>
+                    </div>
+                    <div class="topper-card">
+                        <div class="topper-img">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Amit Kumar">
+                        </div>
+                        <h3>Amit Kumar</h3>
+                        <span class="topper-rank">JEE Main 99.8%ile</span>
+                        <p>Class 12, PCM</p>
+                        <p>"Regular mock tests with detailed analysis improved my problem-solving speed."</p>
+                    </div>
+                    <div class="topper-card">
+                        <div class="topper-img">
+                            <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Neha Gupta">
+                        </div>
+                        <h3>Neha Gupta</h3>
+                        <span class="topper-rank">Class 12 CBSE 98.4%</span>
+                        <p>Class 12, Science</p>
+                        <p>"The board exam strategy sessions were extremely helpful for scoring high marks."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="results-content" id="stats">
+                <h3 style="text-align: center; margin-bottom: 30px; color: var(--primary-color);">Year-wise Performance Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>2023</h3>
+                        <p>IIT-JEE Selections: 42</p>
+                        <p>NEET Selections: 38</p>
+                        <p>Class 12 90%+: 127</p>
+                        <p>Class 10 90%+: 156</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>2022</h3>
+                        <p>IIT-JEE Selections: 35</p>
+                        <p>NEET Selections: 29</p>
+                        <p>Class 12 90%+: 112</p>
+                        <p>Class 10 90%+: 138</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>2021</h3>
+                        <p>IIT-JEE Selections: 28</p>
+                        <p>NEET Selections: 24</p>
+                        <p>Class 12 90%+: 98</p>
+                        <p>Class 10 90%+: 121</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>2020</h3>
+                        <p>IIT-JEE Selections: 22</p>
+                        <p>NEET Selections: 18</p>
+                        <p>Class 12 90%+: 85</p>
+                        <p>Class 10 90%+: 107</p>
+                    </div>
+                </div>
+            </div>
+            <div class="results-content" id="stories">
+                <h3 style="text-align: center; margin-bottom: 30px; color: var(--primary-color);">Student Success Stories</h3>
+                <div class="toppers-list">
+                    <div class="topper-card">
+                        <div class="topper-img">
+                            <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Vikram Singh">
+                        </div>
+                        <h3>Vikram Singh</h3>
+                        <p>IIT Bombay, Computer Science</p>
+                        <p>"Coming from a small town, I lacked resources. EduSuccess provided the perfect environment with excellent faculty and study material that helped me crack JEE Advanced with AIR 214."</p>
+                    </div>
+                    <div class="topper-card">
+                        <div class="topper-img">
+                            <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Ananya Reddy">
+                        </div>
+                        <h3>Ananya Reddy</h3>
+                        <p>AIIMS Delhi</p>
+                        <p>"The regular tests and personalized feedback helped me identify my weak areas. The faculty's dedication and the institute's systematic approach were instrumental in my NEET success."</p>
+                    </div>
+                    <div class="topper-card">
+                        <div class="topper-img">
+                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Rohit Verma">
+                        </div>
+                        <h3>Rohit Verma</h3>
+                        <p>NIT Trichy, Mechanical</p>
+                        <p>"I joined EduSuccess in Class 11 with average marks. The faculty's teaching methods and continuous motivation helped me improve gradually and secure a seat in my dream college."</p>
+                    </div>
+                    <div class="topper-card">
+                        <div class="topper-img">
+                            <img src="https://randomuser.me/api/portraits/women/51.jpg" alt="Sneha Joshi">
+                        </div>
+                        <h3>Sneha Joshi</h3>
+                        <p>Class 12 CBSE 97.8%</p>
+                        <p>"The board exam preparation strategy, especially for practical exams and project work guidance, helped me score exceptionally well in all subjects."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section id="faculty" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Expert Faculty</h2>
+            </div>
+            <div class="faculty-grid">
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Dr. Rajesh Kumar">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Rajesh Kumar</h3>
+                        <span class="faculty-subject">Physics (IIT-JEE)</span>
+                        <p class="faculty-qualification">PhD (IIT Delhi), 15+ years experience</p>
+                        <p>Specializes in Mechanics and Modern Physics. Known for his conceptual clarity and problem-solving techniques.</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Dr. Priya Sharma">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Priya Sharma</h3>
+                        <span class="faculty-subject">Biology (NEET)</span>
+                        <p class="faculty-qualification">PhD (Botany), 12+ years experience</p>
+                        <p>Expert in Plant Physiology and Genetics. Her innovative teaching methods make complex topics easy to understand.</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Prof. Amit Patel">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. Amit Patel</h3>
+                        <span class="faculty-subject">Mathematics (IIT-JEE)</span>
+                        <p class="faculty-qualification">M.Sc (IIT Bombay), 10+ years experience</p>
+                        <p>Specializes in Calculus and Algebra. Known for his shortcut methods and time-saving techniques for competitive exams.</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://randomuser.me/api/portraits/women/4.jpg" alt="Dr. Anjali Gupta">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Anjali Gupta</h3>
+                        <span class="faculty-subject">Chemistry (NEET/JEE)</span>
+                        <p class="faculty-qualification">PhD (Organic Chemistry), 14+ years experience</p>
+                        <p>Expert in Organic Chemistry mechanisms. Her structured approach helps students master this challenging subject.</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://randomuser.me/api/portraits/men/5.jpg" alt="Prof. Sanjay Verma">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. Sanjay Verma</h3>
+                        <span class="faculty-subject">Mathematics (CBSE)</span>
+                        <p class="faculty-qualification">M.Sc, B.Ed, 8+ years experience</p>
+                        <p>Specializes in board exam preparation. Known for his complete syllabus coverage and exam-oriented teaching.</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://randomuser.me/api/portraits/women/6.jpg" alt="Dr. Meena Kapoor">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Meena Kapoor</h3>
+                        <span class="faculty-subject">English (All Courses)</span>
+                        <p class="faculty-qualification">PhD (English Literature), 10+ years experience</p>
+                        <p>Expert in communication skills and board exam English preparation. Focuses on conceptual understanding and application.</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="#contact" class="btn">Request Demo Class</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Portal Section -->
+    <section id="portal" class="section">
+        <div class="container">
+            <div class="portal-container">
+                <div class="portal-info">
+                    <h2>Student Portal</h2>
+                    <p>Access your study materials, test results, class schedules and more through our student portal.</p>
+                    <ul>
+                        <li>Download lecture notes and study material</li>
+                        <li>View your test performance and analytics</li>
+                        <li>Check class schedules and updates</li>
+                        <li>Access recorded lectures (for online students)</li>
+                        <li>Submit doubts and get solutions from faculty</li>
+                    </ul>
+                    <p>New students will receive login credentials after completing admission formalities.</p>
+                </div>
+                <div class="portal-form">
+                    <h3>Student Login</h3>
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="username">Username/Email</label>
+                            <input type="text" id="username" placeholder="Enter your username or email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Enter your password" required>
+                        </div>
+                        <div class="form-actions">
+                            <a href="#" class="form-link">Forgot Password?</a>
+                            <button type="submit" class="btn">Login</button>
+                        </div>
+                    </form>
+                    <div style="text-align: center; margin-top: 20px;">
+                        <p>New student? <a href="#admission" class="form-link">Register here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Class Schedule</h2>
+            </div>
+            <div class="schedule-tabs" id="scheduleTabs">
+                <button class="tab-btn active" data-tab="jee">IIT-JEE</button>
+                <button class="tab-btn" data-tab="neet">NEET</button>
+                <button class="tab-btn" data-tab="class12">Class 12</button>
+                <button class="tab-btn" data-tab="class10">Class 10</button>
+            </div>
+            <div class="schedule-content active" id="jee">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Subject</th>
+                            <th>Faculty</th>
+                            <th>Batch</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>4:00 PM - 6:00 PM</td>
+                            <td class="subject">Physics</td>
+                            <td class="teacher">Dr. Rajesh Kumar</td>
+                            <td>JEE Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>4:00 PM - 6:00 PM</td>
+                            <td class="subject">Chemistry</td>
+                            <td class="teacher">Dr. Anjali Gupta</td>
+                            <td>JEE Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>4:00 PM - 6:00 PM</td>
+                            <td class="subject">Mathematics</td>
+                            <td class="teacher">Prof. Amit Patel</td>
+                            <td>JEE Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>4:00 PM - 6:00 PM</td>
+                            <td class="subject">Problem Solving</td>
+                            <td class="teacher">All Faculty</td>
+                            <td>JEE Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>10:00 AM - 1:00 PM</td>
+                            <td class="subject">Full Test</td>
+                            <td class="teacher">All Faculty</td>
+                            <td>JEE Advanced</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="schedule-content" id="neet" style="display: none;">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Subject</th>
+                            <th>Faculty</th>
+                            <th>Batch</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>6:00 PM - 8:00 PM</td>
+                            <td class="subject">Biology</td>
+                            <td class="teacher">Dr. Priya Sharma</td>
+                            <td>NEET</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>6:00 PM - 8:00 PM</td>
+                            <td class="subject">Chemistry</td>
+                            <td class="teacher">Dr. Anjali Gupta</td>
+                            <td>NEET</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>6:00 PM - 8:00 PM</td>
+                            <td class="subject">Physics</td>
+                            <td class="teacher">Dr. Rajesh Kumar</td>
+                            <td>NEET</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>6:00 PM - 8:00 PM</td>
+                            <td class="subject">Doubt Solving</td>
+                            <td class="teacher">All Faculty</td>
+                            <td>NEET</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>10:00 AM - 1:00 PM</td>
+                            <td class="subject">Full Test</td>
+                            <td class="teacher">All Faculty</td>
+                            <td>NEET</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="schedule-content" id="class12" style="display: none;">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Subject</th>
+                            <th>Faculty</th>
+                            <th>Batch</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>3:00 PM - 5:00 PM</td>
+                            <td class="subject">Physics</td>
+                            <td class="teacher">Dr. Rajesh Kumar</td>
+                            <td>Class 12 Science</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>3:00 PM - 5:00 PM</td>
+                            <td class="subject">Chemistry</td>
+                            <td class="teacher">Dr. Anjali Gupta</td>
+                            <td>Class 12 Science</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>3:00 PM - 5:00 PM</td>
+                            <td class="subject">Mathematics</td>
+                            <td class="teacher">Prof. Sanjay Verma</td>
+                            <td>Class 12 Science</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>3:00 PM - 5:00 PM</td>
+                            <td class="subject">Biology</td>
+                            <td class="teacher">Dr. Priya Sharma</td>
+                            <td>Class 12 Science</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>3:00 PM - 6:00 PM</td>
+                            <td class="subject">Weekly Test</td>
+                            <td class="teacher">All Faculty</td>
+                            <td>Class 12 Science</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="schedule-content" id="class10" style="display: none;">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Subject</th>
+                            <th>Faculty</th>
+                            <th>Batch</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>2:00 PM - 4:00 PM</td>
+                            <td class="subject">Science</td>
+                            <td class="teacher">Dr. Priya Sharma</td>
+                            <td>Class 10</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>2:00 PM - 4:00 PM</td>
+                            <td class="subject">Mathematics</td>
+                            <td class="teacher">Prof. Sanjay Verma</td>
+                            <td>Class 10</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>2:00 PM - 4:00 PM</td>
+                            <td class="subject">English</td>
+                            <td class="teacher">Dr. Meena Kapoor</td>
+                            <td>Class 10</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>2:00 PM - 4:00 PM</td>
+                            <td class="subject">Social Science</td>
+                            <td class="teacher">Prof. Ramesh Singh</td>
+                            <td>Class 10</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>10:00 AM - 1:00 PM</td>
+                            <td class="subject">Weekly Test</td>
+                            <td class="teacher">All Faculty</td>
+                            <td>Class 10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Gallery</h2>
+            </div>
+            <div class="gallery-filter" id="galleryFilter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="classroom">Classroom</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="seminar">Seminars</button>
+                <button class="filter-btn" data-filter="success">Success Celebrations</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="classroom">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Classroom Session">
+                    <div class="gallery-caption">Interactive classroom session with students</div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Annual Day">
+                    <div class="gallery-caption">Annual day cultural performance by students</div>
+                </div>
+                <div class="gallery-item" data-category="seminar">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Guest Lecture">
+                    <div class="gallery-caption">Guest lecture by IIT professor on career options</div>
+                </div>
+                <div class="gallery-item" data-category="success">
+                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Toppers Celebration">
+                    <div class="gallery-caption">Celebrating our JEE/NEET toppers' success</div>
+                </div>
+                <div class="gallery-item" data-category="classroom">
+                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80" alt="Lab Session">
+                    <div class="gallery-caption">Students performing experiments in physics lab</div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Science Exhibition">
+                    <div class="gallery-caption">Annual science exhibition showcasing student projects</div>
+                </div>
+                <div class="gallery-item" data-category="seminar">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Parent Orientation">
+                    <div class="gallery-caption">Parent orientation program on exam preparation</div>
+                </div>
+                <div class="gallery-item" data-category="success">
+                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Award Ceremony">
+                    <div class="gallery-caption">Award ceremony for top performers in board exams</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Students Say</h2>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial active">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">EduSuccess changed my perspective towards competitive exams. The faculty's teaching methodology and regular tests helped me identify my weak areas and improve systematically. I secured AIR 127 in JEE Advanced thanks to their guidance.</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rahul Sharma">
+                        </div>
+                        <div class="author-info">
+                            <h4>Rahul Sharma</h4>
+                            <span class="author-role">IIT Bombay, Computer Science</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">The biology faculty at EduSuccess is exceptional. Their way of explaining complex concepts with simple analogies made learning enjoyable. The regular mock tests with detailed analysis were crucial for my NEET preparation.</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Priya Patel">
+                        </div>
+                        <div class="author-info">
+                            <h4>Priya Patel</h4>
+                            <span class="author-role">AIIMS Delhi, MBBS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">As a parent, I was impressed by EduSuccess's systematic approach and regular parent-teacher meetings. My daughter improved from 75% in Class 9 to 96% in Class 10 board exams. The faculty's dedication is commendable.</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/60.jpg" alt="Mrs. Gupta">
+                        </div>
+                        <div class="author-info">
+                            <h4>Mrs. Gupta</h4>
+                            <span class="author-role">Parent of Class 10 Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">The online JEE program was a lifesaver during the pandemic. The live classes were interactive, and the recorded lectures allowed me to learn at my own pace. The faculty was always available for doubt resolution.</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Rohit Verma">
+                        </div>
+                        <div class="author-info">
+                            <h4>Rohit Verma</h4>
+                            <span class="author-role">NIT Trichy, Mechanical</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <div class="testimonial-dot active" data-index="0"></div>
+                    <div class="testimonial-dot" data-index="1"></div>
+                    <div class="testimonial-dot" data-index="2"></div>
+                    <div class="testimonial-dot" data-index="3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Latest News & Articles</h2>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1422&q=80" alt="JEE Preparation Tips">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">June 15, 2023</span>
+                        <h3>5 Essential Tips for JEE Main Preparation</h3>
+                        <p class="blog-excerpt">Learn the most effective strategies from our top faculty to maximize your JEE Main score in the remaining months before the exam.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1581093057305-25a0a6b9f46e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="NEET Biology">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">June 5, 2023</span>
+                        <h3>Mastering Biology for NEET: Chapter-wise Strategy</h3>
+                        <p class="blog-excerpt">Our NEET biology expert shares chapter-wise weightage and preparation strategy to help you score 300+ in Biology section.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Board Exams">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">May 28, 2023</span>
+                        <h3>CBSE Class 12 Board Exam Preparation Guide</h3>
+                        <p class="blog-excerpt">Comprehensive month-by-month preparation plan for CBSE Class 12 students to score 90%+ in board exams.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Time Management">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">May 20, 2023</span>
+                        <h3>Time Management Tips for Competitive Exams</h3>
+                        <p class="blog-excerpt">Learn how to effectively manage your study time and maximize productivity during exam preparation.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Success Story">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">May 10, 2023</span>
+                        <h3>From Average to Topper: A Student's Journey</h3>
+                        <p class="blog-excerpt">Inspiring story of how our student improved from 60% in Class 10 to AIR 214 in JEE Advanced with consistent effort.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80" alt="Parental Support">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">April 30, 2023</span>
+                        <h3>How Parents Can Support Their Children During Exams</h3>
+                        <p class="blog-excerpt">Expert advice on creating the right environment at home to help your child perform their best in exams.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="#" class="btn">View All Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Have questions about our courses or admission process? Reach out to us through any of the channels below.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Our Location</h4>
+                                <p>123 Education Street, Knowledge City, Bangalore - 560001</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Call Us</h4>
+                                <p>+91 9876543210 (Admissions)</p>
+                                <p>+91 9876543211 (General Enquiries)</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Us</h4>
+                                <p>admissions@edusuccess.in</p>
+                                <p>info@edusuccess.in</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Working Hours</h4>
+                                <p>Monday - Saturday: 9:00 AM - 6:00 PM</p>
+                                <p>Sunday: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" placeholder="Enter your email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" placeholder="Enter subject" required>
+                            </div>
+                        </div>
+                        <div class="form-group form-full">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>About EduSuccess</h3>
+                    <p>Premier coaching institute for IIT-JEE, NEET and school education with a proven track record since 2005.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#courses"><i class="fas fa-chevron-right"></i> Courses</a></li>
+                        <li><a href="#admission"><i class="fas fa-chevron-right"></i> Admission</a></li>
+                        <li><a href="#results"><i class="fas fa-chevron-right"></i> Results</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Courses</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> IIT-JEE Programs</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> NEET Programs</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Class 12 Coaching</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Class 10 Coaching</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Olympiad Preparation</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Online Programs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for exam tips, updates and important announcements.</p>
+                    <form class="footer-newsletter">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EduSuccess Institute. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="index.js"> </script>
+</body>
+</html>
