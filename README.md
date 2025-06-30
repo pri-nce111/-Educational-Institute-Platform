@@ -59,7 +59,7 @@ The website is fully responsive and optimized for:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Support
+## 📞 Developer 
 
 For support and queries:
 
